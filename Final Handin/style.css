@@ -1,0 +1,184 @@
+.navigation {
+    overflow: hidden;
+    width: 75%;
+    margin: auto;
+}
+
+.navigation a {
+    float: left;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#logo {
+    margin-top: 0px;
+    padding-right: 0px;
+    font-style: normal;
+}
+
+#logo-text {
+    color: #0abab5;
+}
+
+#nav-login {
+    float: right;
+    padding: 10px 25px;
+    background-color: #57b2ae;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+    font-style: normal;
+}
+
+#nav-free-trial {
+    float: right;
+    padding: 10px 25px;
+    margin-right: 20px;
+    background-color: #ff0c7d;
+    color: white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+/* Section 1 */
+
+.header {
+    font-size: 36px;
+}
+
+.header-description {
+    font-size: 24px;
+}
+
+.friends-image {
+    padding: 100px;
+}
+
+/* Section 2 */
+
+#section2 {
+    background-color: #D9FDFB;
+}
+
+.section2-div {
+    width: 25%;
+    margin: auto;
+}
+
+.section2-description {
+    font-size: 24px;
+    padding: 50px;
+}
+
+/* Section 3 */
+
+.unique-code-div {
+    background-color: #E4ECF3;
+    width: 70%;
+    margin: 50px auto;
+    padding: 25px 25px 75px;
+}
+
+.unique-code-text {
+    font-size: 24px;
+}
+
+.referral-code-item {
+    width: 100%;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    margin: 0;
+}
+
+#referral-code-button:hover {
+    background-color: #e7e9eb;
+}
+
+#referral-code-button:active {
+    background-color: rgb(243, 243, 243);
+}
+
+
+/* Section 4 */
+
+.referal-features-paragraph {
+    font-size: 18px;
+    width: 50%;
+    margin: auto;
+    padding: 40px 0;
+}
+
+/* Section 5 */
+
+#section5 {
+    background-color: #FFF5F5;
+    text-align: left;
+    position: relative;
+}
+
+.faq-div {
+    width: 70%;
+    margin-left: 20%;
+    padding: 50px 0;
+}
+
+.faq-header {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.faq-question-div {
+    padding: 10px 0;
+}
+
+.question-text {
+    font-size: 24px;
+}
+
+.answer-text {
+    font-size: 18px;
+}
+
+/* Section 6 */
+
+.section6-grid-item {
+    text-align: left;
+}
+
+.section6-grid-item b {
+    font-size: 24px;
+}
+
+.section6-grid-item p {
+    font-size: 18px;
+}
+
+/* Footer */
+
+.footer-grid-item u {
+    font-size: 24px;
+    padding-right: 15px;
+}
+
+.footer-grid-item p {
+    font-size: 18px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.footer-grid-item img {
+    padding-right: 20px;
+}
+
+#linkedin-icon {
+    width: 35px;
+    height: 35px;
+}

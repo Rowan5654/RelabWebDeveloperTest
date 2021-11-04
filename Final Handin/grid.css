@@ -1,0 +1,70 @@
+.main-grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.main-grid-item {
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Section 3 */
+
+.referral-code-grid-container {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    width: 55%;
+    margin: 30px auto 10px;
+}
+
+.referral-code-grid-item {
+    padding: 0;
+    margin: 0;
+}
+
+/* Section 4 */
+
+.referal-features-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+
+.referal-features-grid-item {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Section 6 */
+
+.section6-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 75%;
+    margin: auto;
+    padding: 75px 10px;
+}
+
+.section6-grid-item {
+    padding: 20px 25%;
+    text-align: center;
+}
+
+/* footer */
+
+.footer-grid-container {
+    display: grid;
+    grid-template-columns: 15% 45% 30%;
+    width: 90%;
+    margin-left: 17.5%;
+}
+
+.footer-grid-item {
+    padding: 20px;
+    text-align: left;
+}

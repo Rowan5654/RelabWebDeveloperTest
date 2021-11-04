@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--===============================HEAD===========================-->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+
+        <link rel="stylesheet" type="text/css" href="grid.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <script src="ReferralCode.js"></script>
+    </head>
+
+<!--===============================BODY===========================-->
+    <body style="margin: 0%;" onload="GenerateReferralCode()">
+<!--===============================NAVIGATION=====================-->	
+        <div class="main-grid-container">        
+            <div class="main-grid-item">
+                <div class="navigation">
+                    <a id="logo"><img src="images/Vector.png" alt="relab logo"></a>
+                    <a id="logo-text"><b>Relab</b></a>
+                    <a><b>Pricing</b></a>
+                    <a><b>Pricing</b></a>
+                    <a><b>Pricing</b></a>
+                    <a><img src="images/Foreign Letters.png" alt="???"></a>
+                    <a id="nav-login">LOGIN</a>
+                    <a id="nav-free-trial">FREE TRIAL</a>
+                </div>
+            </div>
+<!--===============================SECTION 1======================-->
+            <div class="main-grid-item">
+                <p class="header">Share the Relab love!</p>
+                <p class="header-description">Good things deserve to be shared, invite a friend to Relab and you'll both receive one month FREE!</p>
+                <img class="friends-image" src="images/Friends.png">
+            </div>
+<!--===============================SECTION 2======================-->
+            <div class="main-grid-item" id="section2">
+                <div class="section2-div">
+                    <p class="section2-description">No tricks of messy fine print. It's so, so simple. Invite your property mates to Relab and if they subscribe to a paid monthly or yearly plan, we'll credit your Relab account with one month FREE.</p>
+                </div>
+            </div>
+<!--===============================SECTION 3======================-->
+            <div class="main-grid-item">
+                <div class="unique-code-div">
+                    <p class="unique-code-text">Your unique referral code!</p>
+                    <div class="referral-code-grid-container">
+                        <div class="referral-code-grid-item">
+                            <p class="referral-code-item" id="referral-code"></p>
+                        </div>
+                        <div class="referral-code-grid-item">
+                            <input class="referral-code-item" id="referral-code-button" type="button" value="Copy link" onclick="CopyToClipboard()">
+                        </div>
+                    </div>
+                </div> 
+            </div>
+<!--===============================SECTION 4======================-->
+            <div class="main-grid-item">
+                <div class="referal-features-grid-container">
+                    <div class="referal-features-grid-item">
+                        <img class="referal-features-image" src="images/No Limit.png">
+                        <p class="referal-features-paragraph">Got lots of mates? Refer as many friends as you like! Each time one of your friends upgrades to a paid account, we'll credit you one month FREE!</p>
+                    </div>
+                    
+                    <div class="referal-features-grid-item">
+                        <img class="referal-features-image" src="images/Month Free.png">
+                        <p class="referal-features-paragraph">To make the deal super sweet for you AND your friend. They'll  recieve one month free as well as you <span style="color:red">&#10084;</span></p> 
+                    </div>
+
+                    <div class="referal-features-grid-item">
+                        <img class="referal-features-image" src="images/No Limit.png">
+                        <p class="referal-features-paragraph">Invite your friends by email, social post or text. So long as they use your unique link, you're both in for a treat.</p>
+                    </div>
+                </div>
+            </div>
+<!--===============================SECTION 5======================-->
+            <div class="main-grid-item" id="section5">
+                <div class="faq-div">
+                    <p class="faq-header">FAQ</p>
+                    <div class="faq-question-div">
+                        <b class="question-text">How many friends can I invite?</b>
+                        <p class="answer-text">The sky's the limit! Popular? Go ahead and send out as many invites as you like! So long as your friends use YOUR unique link, you'll get the treats.</p>    
+                    </div>
+                    <div class="faq-question-div">
+                        <b class="question-text">How does my friend get their one months free when they activate a paid plan?</b>
+                        <p class="answer-text">So long as they have used your link, we'll know they are a referral and their account will be automatically credited.</p>
+                    </div>
+                    <div class="faq-question-div">
+                        <b class="question-text">Who is eligible to use the refer a friend program?</b>
+                        <p class="answer-text">All paid Relab subscribers are eligible to use our refer a friend program.</p>
+                    </div>
+                </div>
+            </div>
+<!--===============================SECTION 6======================-->
+            <div class="main-grid-item">
+                <div class="section6-grid-container">
+                    <div class="section6-grid-item">
+                        <b>Company</b>
+                        <p>About Us</p>
+                        <p>Contact</p>
+                        <p>Pricing</p>
+                        <p>FAQ</p>
+                    </div>
+                    <div class="section6-grid-item">
+                        <b>Features</b>
+                        <p>Feature 1</p>
+                        <p>Feature 2</p>
+                        <p>Feature 3</p>
+                        <p>Feature 4</p>
+                    </div>
+                    <div class="section6-grid-item">
+                        <b>Blog</b>
+                        <p>Relab</p>
+                        <p>Product</p>
+                        <p>Property Collective</p>
+                        <p>Customer Stories</p>
+                    </div>
+                </div>
+            </div>
+<!--===============================FOOTER======================-->
+            <div class="main-grid-item">
+                <div class="footer-grid-container">
+                    <div class="footer-grid-item">
+                        <u>Terms</u>
+                        <u>Privacy</u>
+                    </div>
+                    <div class="footer-grid-item">
+                        <p>&copy; copyright &copy; 2018-2020 Property Portal Limited RELAB.co.nz All Rights Reserved</p>
+                    </div>
+                    <div class="footer-grid-item">
+                        <img class="footer-image" src="images/Facebook.png">
+                        <img class="footer-image" src="images/Instgram.png">
+                        <img class="footer-image" id="linkedin-icon" src="images/LinkedIn.png">
+                        <img class="footer-image" src="images/Twitter.png">
+                        <img class="footer-image" src="images/Youtube.png">
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </body>
+</html>
